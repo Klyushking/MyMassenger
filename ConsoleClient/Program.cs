@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace MyMassenger
+namespace MyMessanger
 {
-    class Programm
+    class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
+            Message msg = new Message();
             Console.WriteLine("И что теперь");
+            Console.WriteLine(msg.ToString());
         }
     }
 }
