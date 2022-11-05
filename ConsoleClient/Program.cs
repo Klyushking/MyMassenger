@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace MyMassenger
+{
+    class Programm
+    {
+        static void main(string[] args)
+        {
+            Console.WriteLine("И что теперь");
+        }
+    }
+}
